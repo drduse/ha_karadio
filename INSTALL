@@ -1,0 +1,9 @@
+add custom user repo using HACS using https://github.com/drduse/ha_karadio
+add integation Settings>Integrations> search for "Karadio"
+add in your configuration.yaml
+
+media_player:
+   - platform: karadio
+    host: <your_ip_of_karadio_device>
+
+restart Home Assistant
